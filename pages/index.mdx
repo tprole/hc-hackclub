@@ -1,9 +1,9 @@
-import { Flex, NavLink, Container, Box, Card, Heading, Text, Button, Avatar } from 'theme-ui'
+import { Flex, NavLink, Container, Box, Card, Heading, Text, Button, Image } from 'theme-ui'
 
 <Container>
 
 <Flex as="nav">
-  <Avatar src={"https://assets.hackclub.com/flag-orpheus-top.svg"} sx={{ backgroundColor: 'white' }} />
+  <Image src={"https://assets.hackclub.com/flag-orpheus-top.svg"} />
   <NavLink href="#!" p={2}>
     Home
   </NavLink>
@@ -30,13 +30,13 @@ Welcome to the 2023-24 Havergal Hack Club website!
 <Flex justifyContent="space-evenly">
     <Box p={3}>
     <Heading as="h2">Meeting Days</Heading>
-    <Text>Senior School Club Tuesdays\n</Text>
+    <Text>Senior School Club Tuesdays</Text><br />
     <Text>Thursdays After School (via Zoom)</Text>
     </Box>
 
     <Box p={3}>
     <Heading as="h2">Meeting Times</Heading>
-    <Text>Tuesdays: 12:15-12:50pm\n</Text>
+    <Text>Tuesdays: 12:15-12:50pm</Text><br />
     <Text>Thursdays: 4:30-6pm</Text>
     </Box>
 </Flex>
