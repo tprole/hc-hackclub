@@ -1,4 +1,6 @@
-import { Flex, NavLink, Container, Box, Card, Heading, Text } from 'theme-ui'
+import { Flex, NavLink, Container, Box, Card, Heading, Text, Button } from 'theme-ui'
+
+<Container>
 
 <Flex as="nav">
   <NavLink href="#!" p={2}>
@@ -12,14 +14,15 @@ import { Flex, NavLink, Container, Box, Card, Heading, Text } from 'theme-ui'
   </NavLink>
 </Flex>
 
+</Container>
+
+
 <Container>
 
 # Hello!
 
-<strong>TESTING!</strong>
-
 {/* Add the Card component with the desired content */}
-<Card>
+<Card variant='interactive'>
     <Box p={3}>
     <Heading as="h2">Card Title</Heading>
     <Text>This is the content of the card.</Text>
