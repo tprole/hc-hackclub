@@ -7,10 +7,10 @@ import { Flex, NavLink, Container, Box, Card, Heading, Text, Button } from 'them
     Home
   </NavLink>
   <NavLink href="#!" p={2}>
-    Blog
+    Meetings
   </NavLink>
   <NavLink href="#!" p={2}>
-    About
+    Members
   </NavLink>
 </Flex>
 
@@ -22,13 +22,21 @@ import { Flex, NavLink, Container, Box, Card, Heading, Text, Button } from 'them
 # Hello!
 
 {/* Add the Card component with the desired content */}
-<Card variant='interactive'>
+
+Welcome to the 2023-24 Havergal Hack Club website!
+
+<Card>
+<Flex>
     <Box p={3}>
-    <Heading as="h2">Card Title</Heading>
+    <Heading as="h2">Meeting Days</Heading>
     <Text>This is the content of the card.</Text>
     </Box>
-</Card>
 
-You’re using the [Hack Club Theme Starter](https://github.com/hackclub/theme-starter).
+    <Box>
+    <Heading as="h2">Meeting Times</Heading>
+    <Text>This is the content of the card.</Text>
+    </Box>
+</Flex>
+</Card>
 
 </Container>
