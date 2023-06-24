@@ -1,4 +1,4 @@
-import { Container } from 'theme-ui'
+import { Container, Box, Card, Heading, Text } from 'theme-ui'
 
 <Container>
 
@@ -6,6 +6,13 @@ import { Container } from 'theme-ui'
 
 <strong>TESTING!</strong>
 
+{/* Add the Card component with the desired content */}
+<Card>
+    <Box p={3}>
+    <Heading as="h2">Card Title</Heading>
+    <Text>This is the content of the card.</Text>
+    </Box>
+</Card>
 
 You’re using the [Hack Club Theme Starter](https://github.com/hackclub/theme-starter).
 
