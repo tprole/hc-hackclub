@@ -1,0 +1,7 @@
+We are planning for you to do some or all of the following:
+1) Microbiology, bacterial transformations, plasmid preps;
+2) cell culture - growing cells like HeLa cells and transferring them with plasmids;
+3) Fluorescence imaging (confocal, and total internal reflection fluorescence);
+4) Immunoprecipitations;
+5) Western blots;
+6) FlexStation robotic cell signalling assays.
